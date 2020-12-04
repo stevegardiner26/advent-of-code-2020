@@ -3,8 +3,6 @@
 file = File.open("input.txt")
 input_data = file.readlines.map(&:chomp)
 hash = []
-found1 = 0
-found2 = 0
 
 input_data.each do |num|
   hash[num.to_i] = true
@@ -12,9 +10,9 @@ end
 
 input_data.each do |num|
   if hash[2020 - num.to_i]
-    found1 = num
-    found2 = 2020 - num.to_i
+    @found1 = num
+    @found2 = 2020 - num.to_i
   end
 end
 
-puts "Numbers that add up to 2020: #{found1} & #{found2}"
+puts "Numbers that add up to 2020: #{@found1} & #{@found2}"
