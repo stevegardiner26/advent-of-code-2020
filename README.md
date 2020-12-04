@@ -13,6 +13,6 @@ Part 2: Read file for instructions (Regex)
 
 ### Day 3
 
-Part 1: 
+Part 1: Read file for instructions (2D Array Traversal)
 
-Part 2:
+Part 2: Read file for instructions (2D Array Traversal)
